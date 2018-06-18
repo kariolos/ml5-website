@@ -40,7 +40,7 @@ classifier.predict(document.getElementById('image'), function(results) {
 
 ### Parameters
 
-  - `model` - A String value of a valid model. Only [MobileNet](https://github.com/tensorflow/tfjs-models/tree/master/MobileNet) is available for now. Case insensitive.
+  - `model` - A String value of a valid model. Only [MobileNet](https://github.com/tensorflow/tfjs-models/tree/master/mobilenet) is available for now. Case insensitive.
   - `callback` - Optional. A function to run once the model has been loaded.
   - `options` - Optional. An object describing a model accuracy and performance. For MobileNet the defaults are: `{ version: 1,
     alpha: 1.0, topk: 3, }`
